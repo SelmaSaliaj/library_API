@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/library
+    username: root
+    password: Iamhere@20Yo
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+jwt:
+  key: 6F24F845E8DF7C7041FD9B9AC559167E0AE3253264C9AD9EC04F118F1C8F97AE
+
+logging:
+  level:
+    org.springframework.security: DEBUG
